@@ -1,0 +1,17 @@
+//Name:Jiseok Shim
+//ID:122758170
+//Email:jshim13@myseneca.ca
+// Date:2021-12-04
+//Section:OOP244NII
+
+Through the last workshop, I learned and applied the template concept. In this workshop, various types of template functions were implemented, one of which will be explained as an example.
+An example is listArrayElements function. This function is a function that receives various kinds of arrangements and outputs them.
+
+ex) template<typename T>
+bool listArrayElements(const char* Title, T* array, int size){}
+
+I entered various types of arrays using <typename T> rather than one type. After determining what the entity object is, the listArrayElements function of the object is called.
+
+In conclusion, the use of templates has the advantage of being able to freely use various types of functions or classes. One more thing to learn is that when several types of classes are implemented as a function of a template, 
+the abstract basic class is first implemented, then inherited into several types of classes, and finally implemented. In addition, the template is difficult to debug because the type is determined during the compilation stage. 
+Therefore, you should make the code carefully when you first make it.

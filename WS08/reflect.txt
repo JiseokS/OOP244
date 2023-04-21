@@ -1,0 +1,15 @@
+/*
+Name:Jiseok Shim
+Email:jshim13@myseneca.ca
+Student ID:122758170
+Data:2021-11-21
+Section:OOP244NII
+*/
+Through this workshop 8, I learned more deeply about virtual functions. Virtual functions use "virtual" to create virtual functions. Functions of the basic class can be redefined in classes derived through virtual 
+functions. In addition, when overriding a function, the virtual function of the derived class must be the same as the base class (parameters, types). With these virtual functions, your computer determines real objects
+at runtime. This is called dynamic binding.
+Adding a keyword to a virtual function becomes a pure virtual function. ex) void getSpecs(std::istream &istr) = 0;
+Pure virtual functions are called abstract elementary classes. This class cannot create instances and only provides a function body to other derived classes to be redefined. A class that redefines
+a pure virtual function is called a concrete class.
+
+Through this workshop and Milestone 2, it is hard to understand and apply pure virtual functions and abstract basic classes that may seem complicated.

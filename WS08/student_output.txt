@@ -1,0 +1,82 @@
+Script started on Thu 18 Nov 2021 04:31:49 PM EST
+==123194== Memcheck, a memory error detector
+==123194== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==123194== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==123194== Command: ws
+==123194== 
+Nothing should be printed between these two lines
+------------------------------------
+------------------------------------
+
+Two simple shapes should be printed here 
+(Separator label with line of width 50 and then Container label with width 20 and leading spaces 5):
+
+Separator
+==================================================
+
++------------------+
+|     Container    |
++------------------+
+
+
+To test creating a line shape, enter the following:
+>lineLabel two,40<ETNER>
+>lineLabel two,40
+The following outputs should be the same
+The correct output:
+lineLabel two
+========================================
+Your output:
+lineLabel two
+========================================
+
+To test creating a rectangle shape, enter the following:
+>A 55 frame with 4 space to be printed on screen,55,4<ETNER>
+>A 55 frame with 4 space to be printed on screen,55,4
+The following outputs should be the same
+The correct output:
++-----------------------------------------------------+
+|    A 55 frame with 4 spaces to be printed on screen |
++-----------------------------------------------------+
+Your output:
++-----------------------------------------------------+
+|    A 55 frame with 4 space to be printed on screen  |
++-----------------------------------------------------+
+printing lineLabel and rectangleLabel using Shape pointers: 
+lineLabel two
+========================================
++-----------------------------------------------------+
+|    A 55 frame with 4 space to be printed on screen  |
++-----------------------------------------------------+
+Reading the data from a file
+line one
+==========
+line two
+==============================
+line three
+==================================================
+line four
+======================================================================
++-------------+
+|    Step four|
++-------------+
++-----------------------+
+|   Step three          |
++-----------------------+
++---------------------------------+
+|  Step two                       |
++---------------------------------+
++-------------------------------------------+
+| Step one                                  |
++-------------------------------------------+
+==123194== 
+==123194== HEAP SUMMARY:
+==123194==     in use at exit: 0 bytes in 0 blocks
+==123194==   total heap usage: 46 allocs, 46 frees, 82,600 bytes allocated
+==123194== 
+==123194== All heap blocks were freed -- no leaks are possible
+==123194== 
+==123194== For lists of detected and suppressed errors, rerun with: -s
+==123194== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Thu 18 Nov 2021 04:32:18 PM EST

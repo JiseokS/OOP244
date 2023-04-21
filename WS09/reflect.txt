@@ -1,0 +1,14 @@
+/*
+Name:Jiseok Shim
+Email:jshim13@myseneca.ca
+Student ID:122758170
+Data:2021-11-28
+Section:OOP244NII
+*/
+I implemented reading and writing files. The data I wanted was in the form of "firstname, middlename, lastname" and "address, city, probince, postalcode," so I used getline() to read the input until I reached the end of the file.
+example) getline(province, size of province, ¡®,¡¯ )
+I dynamically assigned a character pointer type member variable to save the file. Writing or reading files was implemented by overloading operators. A write virtual function was called using an overload operator.
+Dynamic allocation variables cause memory leaks. This is because the default copy creator or copy assignment operator performs shallow copies. Also, the destructor does not delete the allocated memory. 
+For this reason, I safely copied the allocated memory and deleted it safely before shutting it down. Also, since the contact class is inherited from the personal class, I implemented the extinction as a virtual extinction.
+
+The key to the this milestone was to properly understand the functions and classes previously implemented and to understand the inheritance relationship b

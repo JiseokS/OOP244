@@ -1,0 +1,22 @@
+/*
+Name:Jiseok Shim
+Email:jshim13@myseneca.ca
+Student ID:122758170
+Data:2021-11-14
+Section:OOP244NII
+*/
+
+I learned inheritance through this workshop in the seventh week. Previously, new class and member variable functions were used to use different class. However, after learning inheritance, the function of the parent class could be used 
+depending on which type was used. For example, assume that there are human class and student class. If the human class and the student class are commonly defined as similar behaviors, student is included in the human category 
+because they belong to the human category. Using new definitions, attributes, and actions within the human class without declarations in the student class reduces the amount of code and makes it simpler. At this time, the human class is called 
+a parent class or a basic class, and the student class is called a child class or a derived class. When creating a derived class, the constructor of the parent class is always called after calling the constructor of the parent class.
+Derived class example in workshop 7 lab part) 
+
+Class Dumper : public VehicleBasic
+{
+   ¡¦./
+};
+
+By using derived class in this workshop, you can connect the basic and derived class and avoid unnecessary variable declarations and function declarations.
+
+In Milestone 1, I got a value from the user and used it, and I got used to it before. I learned more about how to handle the buffer and what the buffer is and what it contains.
