@@ -1,0 +1,52 @@
+Script started on Thu 09 Sep 2021 10:33:24 PM EDT
+==206766== Memcheck, a memory error detector
+==206766== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==206766== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==206766== Command: ws
+==206766== 
+Welcome to the Seneca Vending Machine
+
+-----------Available Drinks-----------
+Drink     Volume    Price     Quantity  
+1.Coffee    300       1.5       5         
+2.Tea       250       1.25      3         
+3.Cola      350       2.5       2         
+4.Water     500       3.1       15        
+5.Beer      350       5.25      0         
+Select a drink from the menu (1-5): 0
+Selection was was invalid try again: 5
+Out of stock for that drink, try again: 1
+
+Do you want to order another drink? (Y)es or (N)o: Y
+
+-----------Available Drinks-----------
+Drink     Volume    Price     Quantity  
+1.Coffee    300       1.5       4         
+2.Tea       250       1.25      3         
+3.Cola      350       2.5       2         
+4.Water     500       3.1       15        
+5.Beer      350       5.25      0         
+Select a drink from the menu (1-5): 2
+
+Do you want to order another drink? (Y)es or (N)o: N
+
+-----------Available Drinks-----------
+Drink     Volume    Price     Quantity  
+1.Coffee    300       1.5       4         
+2.Tea       250       1.25      2         
+3.Cola      350       2.5       2         
+4.Water     500       3.1       15        
+5.Beer      350       5.25      0         
+
+Thank you and come again
+==206766== 
+==206766== HEAP SUMMARY:
+==206766==     in use at exit: 0 bytes in 0 blocks
+==206766==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==206766== 
+==206766== All heap blocks were freed -- no leaks are possible
+==206766== 
+==206766== For lists of detected and suppressed errors, rerun with: -s
+==206766== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Thu 09 Sep 2021 10:34:27 PM EDT

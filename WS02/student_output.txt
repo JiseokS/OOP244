@@ -1,0 +1,43 @@
+Script started on Sun 26 Sep 2021 10:44:11 PM EDT
+==50986== Memcheck, a memory error detector
+==50986== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==50986== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==50986== Command: ws
+==50986== 
+Please enter the name of the restaurant: Seneca Cafe
+Enter Phone Number [area] [number]: 416 4915050
+Guest entry...
+Enter guest information or Enter to exit:
+Guest name: Fred Soley
+Enter Phone Number [area] [number]: 416 1112222
+Enter guest information or Enter to exit:
+Guest name: Homer Simpson
+Enter Phone Number [area] [number]: 541 2223333
+Enter guest information or Enter to exit:
+Guest name: Barney Gumble
+Enter Phone Number [area] [number]: 541 3332222
+Enter guest information or Enter to exit:
+Guest name: Edna Krabappel
+Enter Phone Number [area] [number]: 541 4443333
+Enter guest information or Enter to exit:
+Guest name: 
+
+
+Seneca Cafe, Phone Number: (416) 4915050
+**********************************************
+Guestlist and their contacts: 
+1- Fred Soley, (416) 1112222
+2- Homer Simpson, (541) 2223333
+3- Barney Gumble, (541) 3332222
+4- Edna Krabappel, (541) 4443333
+==50986== 
+==50986== HEAP SUMMARY:
+==50986==     in use at exit: 0 bytes in 0 blocks
+==50986==   total heap usage: 5 allocs, 5 frees, 73,024 bytes allocated
+==50986== 
+==50986== All heap blocks were freed -- no leaks are possible
+==50986== 
+==50986== For lists of detected and suppressed errors, rerun with: -s
+==50986== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Sun 26 Sep 2021 10:45:24 PM EDT

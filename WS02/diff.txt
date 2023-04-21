@@ -1,0 +1,14 @@
+In line number 15 of your output:
+The output should be:
+Enter Phone Number [area] [number]: 541 2223333
+                                       ^
+But your output is: 
+Enter Phone Number [area] [number]: 5416 2223333
+                                       ^
+
+Unmatched character details:
+The character in column 40 is supposed to be:
+  [Space] ASCII code(32)
+but you printed
+  [6] ASCII code(54)
+

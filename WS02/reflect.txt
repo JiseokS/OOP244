@@ -1,0 +1,16 @@
+//==============================================
+// Name:           Jiseok Shim
+// Student Number: 122758170
+// Email:          jshim13@myseneca.ca
+// Section:        OOP244NII
+// Workshop:       2
+// Date: 2021-09-26
+//==============================================
+First, I learned about the use of dynamic memory through this class and workshop. Unlike static memory, dynamic memory that is flexible and can be compiled can be allocated as much memory as users want 
+or as much as data has. The lab part wasted data by allocating MAX_NAME to 50, but later used "new" to reallocate the corresponding number of memories of numfighters and +1 size to contain null values.
+EX: Fighter* temp = new Fighter[myCompetition.numfighters + 1];
+If dynamic memory is allocated, the allocated memory must be deleted before termination. Memory leakage errors are prevented through memory deletion.
+EX: delete[] myCompetition.fighters;
+The second is function overloading. Overloading is the use of multiple functions using different parameters and return values for functions of the same name. Functions that play a similar role can be called more easily by grouping them under the same name.
+EX: void fighter(char* name), void fighter(int& power)
+    void display(const Fighter& myFighter), void display(const Competition& mycompetition)
